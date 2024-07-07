@@ -13,12 +13,15 @@ body {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    position: relative;
+    z-index: 1;
 }
 
 .banner-text {
     color: white;
     text-align: center;
     padding-top: 200px;
+    position: relative;
 }
 .banner-text h1 {
     font-size: 50px;
@@ -65,31 +68,53 @@ body {
 }
 
 #nav-bar {
-    background: rgba(26, 214, 98, 0.5);
+    background: #1ad662;
     padding: 10px 0;
     position: fixed;
     width: 100%;
     height: 70px;
+    z-index: 5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-nav li {
-    display: inline-block;
+nav ul {
+    text-align: center;
     list-style: none;
-    margin: 0 10px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
 }
 
-nav li a {
-    color: white;
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding-top: 1rem ;
+}
+
+nav ul li a {
+    color: #f9f9f9;
     text-decoration: none;
     font-size: 20px;
     font-weight: 300;
 }
 
-
 #features {
     padding: 100px 0;
     background-color: #f9f9f9;
 }
+
+#features h2 {
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
 .feature-row {
     text-align: center;
     margin: 0 20px;
+}
+.feature-row feature-col p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
 }
