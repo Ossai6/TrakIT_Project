@@ -76,3 +76,27 @@
 .login_form p a:hover {
     text-decoration: underline;
 }
+
+.forgot {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.forgot:hover {
+    text-decoration: underline;
+}
+
+#remember {
+    margin-right: 5px;
+}
+
+.remember_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+
