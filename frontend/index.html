@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrakIT App</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    <div id="nav-bar">
-        <nav>
+    <div class="nav-bar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Create Account</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li class="active"><i class="fa fa-home"></i><a href="#">Home</a></li>
+                <li><a href="#"><i class="fa fa-clone"></i>Services</a></li>
+                <li><a href="#"><i class="fa fa-book"></i>About</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Information</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#"><i class="fa fa-phone"></i>Contact Us</a></li>
+                <li><a href="#"><i class="fa fa-user"></i>Account</a>
+                    <div class="sub-menu-1">
+                        <ul>
+                            <li><a href="#">Create account</a></li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-        </nav>
     </div>
     
     <section id="banner">
@@ -30,23 +42,39 @@
     </section>
 
     <!-- Features Section -->
-    <section id="features">
-        <h2>Our Features</h2>
+    <section id="feature">
         <div class="feature-row">
-            <div class="feature-col">
-                <img src="./img/track.jpg" alt="Feature 1">
-                <h2>Track Your Activities</h2>
-                <p>TrakIT App allows you to track your daily activities and keep a record of them.</p>
+            <p>Our Features</p>
+            <h1>Why TrakIT?</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Secure Transactions</h1>
+                <div class="features-des">
+                    <div class="features-icon"><i class="fa fa-shield-halved"></i></div>
+                    <div class="feature-txt">
+                        <p>Our platform ensures that all financial transactions are encrypted and secure to protect users' sensitive information.</p>
+                    </div>
+                </div>
+                <h1>Account Management</h1>
+                <div class="features-des">
+                    <div class="features-icon"><i class="fa fa-laptop-file"></i></div>
+                    <div class="feature-txt">
+                        <p>Provide users with the ability to view and manage their accounts, including viewing balances, 
+                            transaction history, and personal details.</p>
+                    </div>
+                </div>
+                <h1>Budgeting Tools</h1>
+                <div class="features-des">
+                    <div class="features-icon"><i class="fa fa-gears"></i></div>
+                    <div class="feature-txt">
+                        <p>Offer tools and features that help users track their spending, 
+                            set budgets, and manage their finances effectively</p>
+                    </div>
+                </div>
             </div>
-            <div class="feature-col">
-                <img src="./img/goals.jpg" alt="Feature 2">
-                <h2>Set Goals</h2>
-                <p>Set your daily goals and track your progress with TrakIT App.</p>
-            </div>
-            <div class="feature-col">
-                <img src="./img/organize.jpg" alt="Feature 3">
-                <h2>Stay Organized</h2>
-                <p>Stay organized and keep track of your daily activities with TrakIT App.</p>
+            <div class="features-img">
+                <img src="./img/track.jpg" alt="">
             </div>
         </div>
     </section>
