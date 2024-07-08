@@ -193,6 +193,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .feature-row h1 {
+        font-size: 40px;
+    }
     .features h1 {
         font-size: 25px;
     }
