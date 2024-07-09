@@ -83,8 +83,10 @@ body {
 .nav-bar ul {
     display: inline-flex;
     list-style: none;
+    float: right;
     color: #f9f9f9;
     overflow: hidden;
+    margin-right: 3rem;
 }
 .nav-bar ul li {
     width: 140px;
