@@ -19,17 +19,21 @@ body {
 .banner-text {
     color: white;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 180px;
     position: relative;
 }
 .banner-text h1 {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-text h2 {
+    padding-top: 20px;
+    font-size: 18x;
 }
 .banner-text p {
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
     margin-top: 20px;
+    padding: 0 2rem;
 }
 .banner-btn {
     margin: 70px auto 0;
@@ -67,7 +71,7 @@ body {
 }
 
 .nav-bar {
-    background: #1ad662;
+    background: #4CAF50;
     text-align: center;
     z-index: 3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -79,36 +83,41 @@ body {
 .nav-bar ul {
     display: inline-flex;
     list-style: none;
+    float: right;
     color: #f9f9f9;
     overflow: hidden;
+    margin-right: 3rem;
 }
 .nav-bar ul li {
-    width: 120px;
+    width: 140px;
     margin: 15px;
     padding: 15px;
 }
 .nav-bar ul li a {
     text-decoration: none;
     color: #f9f9f9;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 150;
 }
 .nav-bar .fa {
     margin-right: 8px;
 }
 .active, .nav-bar ul li:hover {
-    background: #139746;
+    background: #3e8e41;
     border-radius: 2px;
 }
 .sub-menu-1 {
     display: none;
+    z-index: -1;
+    font-size: 20px;
+    font-weight: 300;
 }
 .nav-bar ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
     margin-top: 15px;
     margin-left: -15px;
-    background: #1ad662;
+    background: #4CAF50;
     z-index: 2;
 }
 .nav-bar ul li:hover .sub-menu-1 ul {
@@ -123,8 +132,12 @@ body {
     border-radius: 0;
     text-align: left;
 }
+.nav-bar ul li:hover .sub-menu-1 ul li a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
 .nav-bar ul li:hover .sub-menu-1 ul li a:hover {
     color: #07632a;
+    transform: scale(1.1);
 }
 #feature {
     padding: 70px 0;
@@ -146,6 +159,7 @@ body {
 }
 .feature-row h1 {
     font-size: 50px;
+    color: #273228;
 }
 .feature-box {
     width: 80vw;
@@ -176,7 +190,7 @@ body {
 .features-des {
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .features-icon .fa {
     width: 50px;
