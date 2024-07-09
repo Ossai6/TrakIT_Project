@@ -21,7 +21,7 @@
     height: 100vh;
 }
 
-.login_form {
+.register_form {
     background-color: #dff7e7;
     padding: 20px;
     border-radius: 15px;
@@ -30,12 +30,12 @@
     text-align: center;
 }
 
-.login_form h2 {
+.register_form h2 {
     margin-bottom: 20px;
 }
 
-.login_form input[type="text"],
-.login_form input[type="password"] {
+.register_form input[type="text"],
+.register_form input[type="password"] {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -44,7 +44,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-.login_form button[type="submit"] {
+.register_form button[type="submit"] {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -54,49 +54,25 @@
     cursor: pointer;
 }
 
-.login_form button[type="submit"]:hover {
+.register_form button[type="submit"]:hover {
     background-color: #3e8e41;
 }
 
-.login_form button[type="submit"]:active {
+.register_form button[type="submit"]:active {
     background-color: #3e8e41;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transform: translateY(2px);
 }
 
-.login_form p {
+.register_form p {
     margin-top: 20px;
 }
 
-.login_form p a {
+.register_form p a {
     color: #4CAF50;
     text-decoration: none;
 }
 
-.login_form p a:hover {
+.register_form p a:hover {
     text-decoration: underline;
 }
-
-.forgot {
-    color: #4CAF50;
-    text-decoration: none;
-    margin-left: 100px;
-}
-
-.forgot:hover {
-    text-decoration: underline;
-}
-
-#remember {
-    margin-right: 5px;
-}
-
-.remember_me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    padding-bottom: 10px;
-
-}
-
