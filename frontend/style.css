@@ -79,7 +79,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-} 
+}
 .nav-bar ul {
     display: inline-flex;
     list-style: none;
@@ -98,6 +98,22 @@ body {
     color: #f9f9f9;
     font-size: 15px;
     font-weight: 150;
+}
+.nav-bar .logo-1 {
+    position: relative;
+    float: left;
+    align-items: center;
+    margin-left: 4rem;
+    padding: 15px;
+}
+.nav-bar .logo-1 img {
+    max-width: 150px;
+    height: auto;
+    transition: all 0.3s ease;
+}
+.nav-bar .logo-1 img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 .nav-bar .fa {
     margin-right: 8px;
@@ -170,7 +186,7 @@ body {
     align-items: center;
 }
 .features {
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 .features-img {
     flex-basis: 50%;
@@ -207,6 +223,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     .feature-row h1 {
         font-size: 40px;
     }
@@ -230,6 +247,15 @@ body {
     max-width: 1170px;
     margin: auto;
 }
+.footer-logo .logo {
+    margin-right: auto;
+    max-width: 150px;
+    transition: all 0.3s ease;
+}
+.footer-logo .logo:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 ul {
     list-style: none;
 }
@@ -242,8 +268,9 @@ ul {
     padding: 70px 0;
 }
 .footer-col {
-    width: 26%;
-    padding: 0 3rem;
+    width: 25%;
+    padding-left: 3rem;
+    float: right;
 }
 .footer-col ul li {
     margin-bottom: 10px;
@@ -313,6 +340,23 @@ button:hover {
     transform: scale(1.2);
 }
 @media (max-width: 992px) {
+    .nav-bar ul {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+    .nav-bar ul li {
+        width: 100%;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .nav-bar .logo-1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav-bar .logo-1 img {
+        max-width: 100px;
+    }
     .footer-col {
         width: 48%;
         padding: 0 2rem;
@@ -339,6 +383,19 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    .nav-bar ul {
+        display: block;
+    }
+    .nav-bar ul li {
+        width: 100%;
+    }
+    .nav-bar .logo-1 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav-bar .logo-1 img {
+        max-width: 80px;
+    }
     .footer-col {
         width: 100%;
         padding: 0 1rem;
