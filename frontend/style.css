@@ -179,7 +179,7 @@ body {
 }
 .feature-box {
     width: 80vw;
-    margin: auto;
+    margin:auto;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -270,7 +270,6 @@ ul {
 .footer-col {
     width: 25%;
     padding-left: 3rem;
-    float: right;
 }
 .footer-col ul li {
     margin-bottom: 10px;
@@ -338,6 +337,14 @@ button {
 button:hover {
     cursor: pointer;
     transform: scale(1.2);
+}
+.copy-info p {
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #f9f9f9;
 }
 @media (max-width: 992px) {
     .nav-bar ul {
