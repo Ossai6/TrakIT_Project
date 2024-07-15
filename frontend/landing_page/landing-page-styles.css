@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  position: fixed;
+}
+
+header {
+  background-color: rgb(76, 175, 80, 0.8);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+header nav .logo img {
+  max-width: 150px;
+  height: auto;
+  transition: all 0.3s ease;
+  float: left;
+  margin-left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-left: 1px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.nav-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: #fff;
+  color: black;
+}
+
+header .nav-buttons .sign-in:hover {
+  background-color: #007bff;
+  color: #fff;
+  transition: 0.8s;
+}
+
+header .nav-buttons .sign-up:hover {
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.8s;
+  }
+
+.sign-in {
+  background-color: #fff;
+  color: black;
+}
+
+main {
+  margin-top: 10px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  background-color: #f0f2f5;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-text {
+  max-width: 550px;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.hero-text p {
+  font-size: 18px;
+
+  color: #4f4f4f;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cta-button1 {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+main .hero .hero-text .cta-button1:hover {
+    background-color: #007bff;
+    color: #fff;
+    transition: 0.8s;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  float: left;
+}
+
+.hero-image {
+  padding: 0;
+}

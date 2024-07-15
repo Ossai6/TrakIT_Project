@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./dashboard-styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <div class="top">
+          <div class="logo">
+            <a href="/frontend/home_page/index.html"><img src="Logo-refined.png" alt="logo-here" /></a>
+          </div>
+          <div class="close" id="close-btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="# ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M400-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM80-160v-112q0-33 17-62t47-44q51-26 115-44t141-18h14q6 0 12 2-8 18-13.5 37.5T404-360h-4q-71 0-127.5 18T180-306q-9 5-14.5 14t-5.5 20v32h252q6 21 16 41.5t22 38.5H80Zm560 40-12-60q-12-5-22.5-10.5T584-204l-58 18-40-68 46-40q-2-14-2-26t2-26l-46-40 40-68 58 18q11-8 21.5-13.5T628-460l12-60h80l12 60q12 5 22.5 11t21.5 15l58-20 40 70-46 40q2 12 2 25t-2 25l46 40-40 68-58-18q-11 8-21.5 13.5T732-180l-12 60h-80Zm40-120q33 0 56.5-23.5T760-320q0-33-23.5-56.5T680-400q-33 0-56.5 23.5T600-320q0 33 23.5 56.5T680-240ZM400-560q33 0 56.5-23.5T480-640q0-33-23.5-56.5T400-720q-33 0-56.5 23.5T320-640q0 33 23.5 56.5T400-560Zm0-80Zm12 400Z"
+              />
+            </svg>
+            <h3>Profile</h3>
+          </a>
+          <a href="send-money.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"
+              />
+            </svg>
+            <h3>Send</h3>
+          </a>
+          <a href="#section-1" class="active">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M240-80q-50 0-85-35t-35-85v-120h120v-560l60 60 60-60 60 60 60-60 60 60 60-60 60 60 60-60 60 60 60-60v680q0 50-35 85t-85 35H240Zm480-80q17 0 28.5-11.5T760-200v-560H320v440h360v120q0 17 11.5 28.5T720-160ZM360-600v-80h240v80H360Zm0 120v-80h240v80H360Zm320-120q-17 0-28.5-11.5T640-640q0-17 11.5-28.5T680-680q17 0 28.5 11.5T720-640q0 17-11.5 28.5T680-600Zm0 120q-17 0-28.5-11.5T640-520q0-17 11.5-28.5T680-560q17 0 28.5 11.5T720-520q0 17-11.5 28.5T680-480ZM240-160h360v-80H200v40q0 17 11.5 28.5T240-160Zm-40 0v-80 80Z"
+              />
+            </svg>
+            <h3>Transactions</h3>
+          </a>
+          <a href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M80-560q0-100 44.5-183.5T244-882l47 64q-60 44-95.5 111T160-560H80Zm720 0q0-80-35.5-147T669-818l47-64q75 55 119.5 138.5T880-560h-80ZM160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+              />
+            </svg>
+            <h3>Messages</h3>
+            <span class="message-count">3</span>
+          </a>
+          <a href="# ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M120-120v-80l80-80v160h-80Zm160 0v-240l80-80v320h-80Zm160 0v-320l80 81v239h-80Zm160 0v-239l80-80v319h-80Zm160 0v-400l80-80v480h-80ZM120-327v-113l280-280 160 160 280-280v113L560-447 400-607 120-327Z"
+              />
+            </svg>
+            <h3>Analytics</h3>
+          </a>
+          <a href="# ">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#5f6368"
+            >
+              <path
+                d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h280v80H200Zm440-160-55-58 102-102H360v-80h327L585-622l55-58 200 200-200 200Z"
+              />
+            </svg>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+    
+      <!-------------------END OF ASIDE-------------------->
+      
+      
+      <h1 class="name">Hi, CALEB</h1>
+      <div class="account-and-transaction">
+      <div class="account-balance">
+        <h3 class="balance-text">Available Balance</h3>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          fill="#5f6368"
+        >
+          <path
+            d="M200-280v-280h80v280h-80Zm240 0v-280h80v280h-80ZM80-120v-80h800v80H80Zm600-160v-280h80v280h-80ZM80-640v-80l400-200 400 200v80H80Zm178-80h444-444Zm0 0h444L480-830 258-720Z"
+          />
+        </svg>
+
+        <h1 class="amount">&#x20A6;12,350,880</h1>
+      </div>
+    
+      <!------------END OF ACCOUNT BALANCE------------->
+
+      <div class="transaction" id="section-1">
+        <h2 class="header1">Transactions</h2>
+          
+          <div class="filters">
+            <select>
+              <option value="">Status: All</option>
+              <option value="">Success</option>
+              <option value="">Pending</option>
+              <option value="">Failed</option>
+            </select>
+            <select name="" id="">
+              <option value="">Category: All</option>
+              <option value="">Transportation</option>
+              <option value="">Logistics</option>
+              <option value="">Salary</option>
+              <option value="">Resources</option>
+            </select>
+            <input type="date" placeholder="From">
+            <input type="date" name="Fr" id="" placeholder="To">
+            <a href="" class="download-report">Download Report</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Sender</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Category</th>
+                <th>Recipient name</th>
+                <th>Recipient Account</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>22-11-2024</td>
+                <th>Akpe Caleb</th>
+                <td>For Logistics</td>
+                <td>25,890</td>
+                <td>Logistics</td>
+                <td>Akpan John</td>
+                <td>234568901</td>
+                <td>Success</td>
+              </tr>
+              <tr>
+                <td>22-11-2024</td>
+                <th>Akpe Caleb</th>
+                <td>For Logistics</td>
+                <td>25,890</td>
+                <td>Logistics</td>
+                <td>Akpan John</td>
+                <td>234568901</td>
+                <td>Success</td>
+              </tr>
+              <tr>
+                <td>22-11-2024</td>
+                <th>Akpe Caleb</th>
+                <td>For Logistics</td>
+                <td>25,890</td>
+                <td>Logistics</td>
+                <td>Akpan John</td>
+                <td>234568901</td>
+                <td>Success</td>
+              </tr>
+              <tr>
+                <td>22-11-2024</td>
+                <th>Akpe Caleb</th>
+                <td>For Logistics</td>
+                <td>25,890</td>
+                <td>Logistics</td>
+                <td>Akpan John</td>
+                <td>234568901</td>
+                <td>Success</td>
+              </tr>
+              <tr>
+                <td>22-11-2024</td>
+                <th>Akpe Caleb</th>
+                <td>For Logistics</td>
+                <td>25,890</td>
+                <td>Logistics</td>
+                <td>Akpan John</td>
+                <td>234568901</td>
+                <td>Success</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="pagination">
+            <span>Previous</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>Next</span>
+          </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
+ 

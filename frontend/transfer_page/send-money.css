@@ -1,0 +1,89 @@
+
+/*------------------SEND MONEY STYLES-------------------*/
+.send-money {
+    /*Make the pop up a modal window*/
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.send-money form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.send-money label{
+    width: 20%;
+    display: inline-block;
+    margin-right: 10ox;
+    
+} 
+
+.send-money [type="text"], input[type="number"], select {
+    display: inline-block;
+    width: 65%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+
+}
+
+.send-money button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 44%;
+    align-items: center;
+}
+
+.send-money h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+.send-money .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    color: red;
+}
+
+.send-money .back {
+    position: absolute;
+    top: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.category option {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+}
+
+.category option:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #ccc;
+}
